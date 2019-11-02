@@ -1,0 +1,22 @@
+내 조교님: 최민진
+zxcvxd@skku.edu 
+
+
+**한글이 안된다..
+- 각 attribute을 한 테이블에 둬도 중복/기타 문제가 안생기는지 체크
+  동일한 사람에게 여러 튜플이 생기거나 하면 쪼개기
+
+- 테이블 A 테이블 B 생성후 두개의 관계를 담은 테이블 AB생성 
+
+Procedure
+- DELIMITER 생성시 책대로 안됨
+delimiter 띄고 //
+create procedure p()
+begin
+내용
+end
+//
+delimiter 띄고 ;
+call p();
+이렇게하면 됨.
+근데 procedure랑 trigger를 과연 쓸까싶어서 일단 넘어감......
